@@ -15,6 +15,18 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <distributionManagement>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>ip-172-31-83-166-snapshots</name>
+        <url>http://ec2-107-23-251-114.compute-1.amazonaws.com:8081/artifactory/libs-snapshot</url>
+    </snapshotRepository>
+    <repository>
+        <id>central</id>
+        <name>ip-172-31-83-166-releases</name>
+        <url>http://ec2-107-23-251-114.compute-1.amazonaws.com:8081/artifactory/libs-release</url>
+    </repository>
+</distributionManagement>
 <<<<<<< HEAD
 =======
 >>>>>>> 19b857f902e602509f3e51f97fb1502f8c49c581
